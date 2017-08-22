@@ -247,5 +247,17 @@ v1.0
                 <platform>all</platform>
         </extension>
 </addon>
+	<addon id="repository.projectd" name="[COLOR red]Project D Repository[/COLOR]" version="1.0.3" provider-name="PD Sports">
+<extension point="xbmc.addon.repository" name="[COLOR red]Project D Repository[/COLOR]">
+		<info compressed="false">http://repo.projectdaddon.com/plugins/addons.xml</info>
+		<checksum>http://repo.projectdaddon.com/plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://repo.projectdaddon.com/plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Official Project D - PD Sports Repository 1.0.3!</summary>
+		<description>Project D - PD Sports Repository 1.0.3!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
 
