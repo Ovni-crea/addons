@@ -1,1 +1,11 @@
-
+name="Underverse"
+version="1.5"  
+url="http://underdogbuilds.co.uk/underverse/underverse.zip"
+gui="http://"   -
+kodi="17.4" 
+theme="http://"     
+icon="http://underverse.one/artwork/build%20wallpapers/underverse-icon.jpg"
+fanart="http://underverse.one/artwork/build%20wallpapers/underverse.jpg"
+preview="https://www.youtube.com/watch?v=KjxfCkxKt-M"
+adult="no"
+description=""
