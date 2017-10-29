@@ -34,3 +34,8 @@ fanart="http://gateway.esy.es/images/fanart.jpg"
 preview="https://www.youtube.com/watch?v=lizm8gEERic"
 adult="No"
 description="Gateway builds"
+
+name="Ebony Krypton"
+kodi="17.5"
+url="http://wookiespmc.com/Updates/jay/Ebony_Krypton.zip"
+img="http://wookiespmc.com/Updates/jay/leeicon.png"
