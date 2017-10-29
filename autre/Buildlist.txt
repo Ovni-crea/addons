@@ -11,9 +11,9 @@ preview="https://www.youtube.com/watch?v=KjxfCkxKt-M"
 adult="no"
 description="test"
 
-name="Perks media-1.0"
+name="Perks media"
 version="1.0"  
-url="http://download2206.mediafire.com/16cgenfk3w0g/tiqi5rivjh8xdmr/perks+media-1.0.zip"
+url="https://koditvfr.000webhostapp.com/perks%20media-1.0.zip"
 gui="http://"   -
 kodi="17.4" 
 theme="http://"     
