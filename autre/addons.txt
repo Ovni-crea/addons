@@ -1,6 +1,6 @@
 
 name="Vstream"
-plugin="video"
+plugin="Vstream"
 url="https://github.com/Ovni-crea/addons/raw/master/autre/vstream.zip"
 repository="none"
 repositoryxml="http://"
