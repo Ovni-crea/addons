@@ -815,4 +815,56 @@ http://www.ozbeceriksizler.com/forumdisplay.php?66-IPTV-Online-TV</description>
     <platform>all</platform>
   </extension>
 </addon>
+	<addon id="plugin.video.iptvzak"
+       name="IPTV Zak"
+       version="1.0.5"
+       provider-name="Whitecream">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">IPTV Zak</summary>
+        <description lang="en">Access the IPTV lists from a blog. Daily new links.</description>
+    </extension>
+</addon>
+	<addon id="plugin.video.Milhano"
+       name="[COLOR gold][B]MI[/B][/COLOR][COLOR white][B]LH[/B][/COLOR][COLOR red]AN[COLOR blue][B]O[/B][/COLOR]"
+       version="0.7"
+       provider-name="Team milhano">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+  	
+  <extension point="xbmc.addon.metadata">
+    <summary>Milhano</summary>
+    <description>
+        O Trabalho aqui desenvolvido é fruto de muitas horas de pesquisa e testes.NÃO O PARTILHES!!!             
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
