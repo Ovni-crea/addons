@@ -1,0 +1,23 @@
+﻿<addon id="plugin.video.Ozmosis" version="1.0.0" name="Ozmosis" provider-name="Ozmosis">
+	<requires>
+        <import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.requests" version="2.9.1"/>
+	    <import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+        <import addon="plugin.video.youtube" version="5.3.6"/>
+        <import addon="script.module.urlresolver"  version="2.1.2"/>
+        <import addon="script.module.liveresolver" version="0.1.24"/>
+	    <import addon="script.video.F4mProxy" version="2.7.9"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="Ozmosis.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Ozmosis</summary>
+		<description lang="en">Please visit Ozmosis group for support and assistance! Kindly note that Ozmosis is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+		<news>- Tweaked provider retrieval[CR]- Tweaked stream resolving[CR]- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
+	</extension>
+</addon>
