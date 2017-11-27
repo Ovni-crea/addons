@@ -1343,7 +1343,8 @@ http://www.ozbeceriksizler.com/forumdisplay.php?66-IPTV-Online-TV</description>
 		<forum>https://bubbles4kodi.com/support</forum>
 	</extension>
 </addon>
-		<requires>
+	<addon id="plugin.video.Ozmosis" version="1.0.0" name="Ozmosis" provider-name="Ozmosis">
+	<requires>
         <import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="script.module.requests" version="2.9.1"/>
 	    <import addon="script.module.simplejson" version="3.3.0"/>
