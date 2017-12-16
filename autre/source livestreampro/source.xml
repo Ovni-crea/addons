@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item>
+    <title>Films</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://thumbs.dreamstime.com/b/filme-le-logo-5371391.jpg</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/Films.xml</externallink>
+</item>
+
+<item>
+    <title>Série TV</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://www.quizz.biz/uploads/quizz/614115/orig/1.jpg?1479690405</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/S%C3%A9rie%20TV.xml</externallink>
+</item>
+
+<item>
+    <title>4K</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>http://lofrev.net/wp-content/photos/2017/03/4k_ultra_hd_logo.jpg</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/4K.xml</externallink>
+</item>
+
+<item>
+    <title>4K H265/HEVC</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://github.com/Ovni-crea/addons/blob/master/autre/source%20livestreampro/4k%20h265.jpg?raw=true</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/4K%20H265%20HEVC.xml</externallink>
+</item>
+
+<item>
+    <title>4K HDR</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://d1qy5id4exj5c5.cloudfront.net/files/0/107330/5/463365/sony-4k-hdr-tv.jpg</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/4K%20HDR.xml</externallink>
+</item>
+
+<item>
+    <title>3D</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>http://lofrev.net/wp-content/photos/2014/10/3D-logo.jpg</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/3D.xml</externallink>
+</item>
+
+<item>
+    <title>DD 5.1</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/0/07/Dolby_Digital_5.1.png/revision/latest/scale-to-width-down/640?cb=20111126221727</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/DD%205.1.xml</externallink>
+</item>
+
+<item>
+    <title>DD 7.1</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://www.heimkinoraum.de/upload/Dolby-Surround-7-1-Logo.jpg</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/DD%207.1.xml</externallink>
+</item>
+
+<item>
+    <title>DTS</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://seeklogo.com/images/D/dts-digital-out-logo-9EB65B8D8F-seeklogo.com.png</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/DTS.xml</externallink>
+</item>
+
+<item>
+    <title>DTS True HD/Atmos</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://github.com/Ovni-crea/addons/blob/master/autre/source%20livestreampro/dolby%20true%20hd%20atmos.jpg?raw=true</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/DTS%20True%20HD%20Atmos.xml</externallink>
+</item>
+
+<item>
+    <title>H265/HEVC</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>http://i1-news.softpedia-static.com/images/news2/How-to-Encode-H-265-HEVC-Video-on-Mac-OS-X-440621-2.jpg</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/H265%20HEVC.xml</externallink>
+</item>
+
+<item>
+    <title>720p</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://www.quantumrlv.com.au/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/2/72939_medium_hd_icon_1.png</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/720p.xml</externallink>
+</item>
+
+<item>
+    <title>1080p</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://olimex.files.wordpress.com/2013/12/images.jpg</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/1080p.xml</externallink>
+</item>
+
+<item>
+    <title>Série TV HD</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>http://img.clubic.com/01798440-photo-logo-hd-tv.jpg</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/S%C3%A9rie%20TV%20HD.xml</externallink>
+</item>
+
+<item>
+    <title>Série TV UHD</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>https://az877327.vo.msecnd.net/~/media/images/news/futureview%20blog/4k-logo%20jpg.jpg?v=1&mw=700&mh=456</thumbnail>
+    <externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/S%C3%A9rie%20TV%20UHD.xml</externallink>
+</item>
+
+<item>
+    <title>Live TV (prochainement)</title>
+    <link>http://Ignoreme</link>
+	<thumbnail>http://original.livestream.com/filestore/logos/6a941358-6c7f-2ebf-e8ac-b05f4f338270-banner.png</thumbnail>
+    <externallink>https://github.com/Shani-08/ShaniXBMCWork/raw/master/other/livestreamchanges/testfile.xml</externallink>
+</item
