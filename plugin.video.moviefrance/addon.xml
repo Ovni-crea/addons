@@ -5,6 +5,7 @@
        provider-name="Ovni-Créa-Ovni-tek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.ovnitekquasar"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -18,7 +19,7 @@
     <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer"/>
      <import addon="script.module.pyamf" optional="true"/>
-	 <import addon="plugin.video.pulsar" version="0.6.1"/>
+	 <import addon="plugin.video.quasar"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
