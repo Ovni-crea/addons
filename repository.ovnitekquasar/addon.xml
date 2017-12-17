@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ovnitekquasar" name="[COLOR FFFFD800]Quasar repository[/COLOR]" version="1.0" provider-name="Ovni tek,Ovni crea ">
+	<extension point="xbmc.addon.repository" name="Ovni tek,Ovni crea">
+		<info compressed="false">https://raw.githubusercontent.com/Ovni-crea/quasar/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Ovni-crea/quasar/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Ovni-crea/quasar/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>depot d extension</summary>
+		<description>source non officiel de l addon quasar</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
