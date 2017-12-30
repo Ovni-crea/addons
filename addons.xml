@@ -36,34 +36,7 @@
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
   </extension>
 </addon>
-	<addon id="repository.Agent" name=" [COLOR gold]AGENT 47[/COLOR]" version="1.0.4" provider-name="[COLOR red][B] COLD[/B][/COLOR][COLOR royalblue][B]FIRE[/B][/COLOR]">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="[COLOR gold]AGENT 47[/COLOR]">
-            <info compressed="false">https://raw.githubusercontent.com/anakondascc/repo-run/master/repo/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/anakondascc/repo-run/master/repo/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/anakondascc/repo-run/master/repo/zip</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>[COLOR cyan]Best of the best from C0LDFIRE[/COLOR]</summary>
-            <description>Home of [COLOR red][B]COLD[/B][/COLOR][COLOR royalblue][B]FIRE[/B][/COLOR] builds and add-ons</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-	<addon id="repository.aresproject" name="[COLOR blue]A[/COLOR][COLOR white]res Project[/COLOR]" version="0.0.8" provider-name="Ares Team">
-	<extension point="xbmc.addon.repository" name="AresRepo">
-		<info compressed="false">https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/ares-fortress/repo/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>AresProject.</summary>
-		<description>Ares-Project Addons Source. Visit Us At https://ares-project.uk</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-	<addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.6" provider-name="Colossal">
+	<addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.9" provider-name="Colossal">
     <extension point="xbmc.addon.repository" name="[COLOR gold]Colossus Repository[/COLOR]">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
@@ -80,19 +53,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-	<addon id="repository.dandymedia" name="Dandymedia Repository" version="1.0.1" provider-name="Dandymedia">
-    <extension point="xbmc.addon.repository" name="Dandymedia Repository">
-        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
-        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Dandymedia Repository</summary>
-        <description>Dandymedia collection all addons</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-	<addon id="repository.elysium" version="2017.06.10" name="Elysium repository" provider-name="Elysium">
+	<addon id="repository.elysium" version="2017.10.14" name="Elysium repository" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
@@ -182,19 +143,6 @@ v1.0
         <platform>all</platform>
     </extension>
 </addon>
-	<addon id="repository.mdrepo" name="Mucky Ducks Repo" version="1.0.2" provider-name="Mucky Duck">
-	<extension point="xbmc.addon.repository" name="Mucky Ducks Repo">
-		<info compressed="false">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Mucky Ducks Repo</summary>
-		<description>Download And Install Addons Developed By Mucky Duck And Various Other Developers </description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
 	<addon id="repository.merlin" name=" [COLOR aqua]Merlin Repository[/COLOR]" version="2.0.0" provider-name="Merlin Project">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -210,7 +158,7 @@ v1.0
 			<platform>all</platform>
 		</extension>
 </addon>
-	<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.2" provider-name="noobsandnerds">
+	<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.3.2" provider-name="noobsandnerds">
         <extension point="xbmc.addon.repository" name="noobsandnerds Repository">
                 <dir>
                         <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -246,18 +194,6 @@ v1.0
                 <description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
                 <platform>all</platform>
         </extension>
-</addon>
-	<addon id="repository.projectd" name="[COLOR red]Project D Repository[/COLOR]" version="1.0.3" provider-name="PD Sports">
-<extension point="xbmc.addon.repository" name="[COLOR red]Project D Repository[/COLOR]">
-		<info compressed="false">http://repo.projectdaddon.com/plugins/addons.xml</info>
-		<checksum>http://repo.projectdaddon.com/plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://repo.projectdaddon.com/plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The Official Project D - PD Sports Repository 1.0.3!</summary>
-		<description>Project D - PD Sports Repository 1.0.3!</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 	<addon id="repository.q" name="[COLOR FF8ABEE2]Q[/COLOR]'s Repository" version="0.0.2.3" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<extension point="xbmc.addon.repository"
@@ -304,38 +240,6 @@ v1.0
 		 CazWall.com | Kodi, Tech and More! This Repo is not an Official Repo for any of the add-ons in it. It's simply an easy spot for my followers. "Peace in Caribbean, Peace in the Middle East, to God be the Glory!"
 
 		</description> 
-		
-		<platform>all</platform>
-	</extension>
-</addon>
-	<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.2.7" provider-name="SMASH">
-	<extension point="xbmc.addon.repository" name="SMASH Repo">
-	<dir>
-        <info compressed="false">http://mediarepos.net/Repos/smashrepo/addons.xml</info>
-        <checksum>http://mediarepos.net/Repos/smashrepo/addons.xml.md5</checksum>
-        <datadir zip="true">http://mediarepos.net/Repos/smashrepo/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Are Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </summary>
-		<description lang="en">ADDONS UNDER THIS SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT WEBSITES IF WANT REMOVED [CR] Wanna Help With Server Cost Donate www.paypal.me/BrianSMASH [CR] [B]Smash Repo Change Log 1.2.7[/B] [CR] Added Some New Addons Time For Change People [CR] check for updates before going into vid addons</description>
-		<platform>all</platform>
-		<forum></forum>
-        <website></website>
-		<news>IF YOU DO WANNA HELP YOU CAN FOLLOW ME ON TWITTER @XSMASHX88X AND SUB TO MY CHANNEL WWW.YOUTUBE.COM/XSMASHX88X</news>
-	</extension>
-</addon>
-	<addon id="repository.vipsecrettv" name="[COLOR gold][B].Vip[/B][/COLOR][COLOR white][B]Secret[/B][/COLOR][COLOR blue][B]REPO[/B][/COLOR]" version="1.0.3" provider-name="Vip Secrettv">
-	<extension point="xbmc.addon.repository" name="Vip Secrettv">
-		<info compressed="false">http://secretv.j2mf4.com/repo/addons.xml</info>
-		<checksum>http://secretv.j2mf4.com/repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://secretv.j2mf4.com/repo/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Vip Secrettv</summary>
-		<description>
-Vip Secrettv Repository
-		 </description> 
 		
 		<platform>all</platform>
 	</extension>
@@ -405,25 +309,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         </assets>
         <news></news>
     </extension>
-</addon>
-	<addon id="teamtuga4ever.repository" name="Teamtuga4ever Repository" version="1.8" provider-name="Teamtuga4ever">
-	<extension point="xbmc.addon.repository" name="Teamtuga4ever Repository">
-	<dir>
-		<info compressed="false">http://repoteamtuga4ever.16mb.com/addons.xml</info>
-		<checksum>http://repoteamtuga4ever.16mb.com/addons.xml.md5</checksum>
-		<datadir zip="true">http://repoteamtuga4ever.16mb.com/instal/</datadir>
-	</dir>
-		<info compressed="false">https://raw.githubusercontent.com/tugateam/Repository/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/tugateam/Repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/tugateam/Repository/master/instal/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>teamtuga4ever</summary>
-		<description>Teamtuga4ever Repository</description>
-         <disclaimer>Teamtuga4ever</disclaimer>
-		<platform>all</platform>
-                <website>https://www.facebook.com/groups/teamtuga4ever/</website>
-	</extension>
 </addon>
 	<addon id="plugin.video.bonanza"
        name="IPTV BONANZA"
@@ -546,53 +431,17 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <platform>all</platform>
     </extension>
 </addon>
-	<addon id="plugin.video.exabytetv"
-       name="[B][COLOR aqua]Exabyte TV[/COLOR][/B]"
-       version="2.0"
-       provider-name="Sahid CG">
+	<addon id="plugin.video.playlistLoader" name="Playlist Loader" version="1.1.7" provider-name="Avigdor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Exabyte TV</summary>
-    <description>
-        Addon oficial de Exabyte TV
-        Encontrarás todo un mundo de entretenimiento.
-        exabytetv.info
-        
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-	<addon id="plugin.video.playlistLoader" name="Playlist Loader" version="1.0.6" provider-name="Avigdor">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.xbmc-avigdork" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Playlist Loader - downloaded for free from:
-http://www.hometheater.co.il</summary>
-    <description lang="en">Playlist Loader - downloaded for free from:
-http://www.hometheater.co.il</description>
+    <summary lang="en">Playlist Loader</summary>
+    <description lang="en">Playlist Loader</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -626,42 +475,6 @@ http://www.hometheater.co.il</description>
     <platform>all</platform>
   </extension>
 </addon>
-	<addon id="plugin.video.OTV_MEDIA"
-       name="OTV_MEDIA"
-       version="4.1.8"
-       provider-name="Orhan t">
-    <requires>              
-	<import addon="script.module.metahandler" version="1.0.2"/>
-	<import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.common.plugin.cache" version="0.9.1"/>
-	<import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.parsedom" version="0.9.1"/>
-	<import addon="plugin.video.youtube" version="2.9.2"/>
-        <import addon="script.module.simple.downloader" version="0.9.4"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
-        <import addon="script.module.t0mm0.common" version="1.1.0"/>
-        <import addon="script.module.livestreamer" optional="true"/>
-        <import addon="script.module.urlresolver" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    
-    <summary lang="en">OTV_MEDIA</summary>
-    <description lang="en">
-    [COLOR yellow]Bagis,Spenden,Donation[/COLOR]
-[COLOR yellow]https://www.paypal.me/orhantv [/COLOR]
-[COLOR red]Movies[/COLOR],
-[COLOR yellow]TV-Shovs[/COLOR],
-[COLOR turquoise]Documentaries[/COLOR],
-[COLOR limegreen]Toons[/COLOR],
-[COLOR red]Live TV[/COLOR],
-+18 adult pin on this site->
-http://www.ozbeceriksizler.com/forumdisplay.php?66-IPTV-Online-TV</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 	<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="0.2" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
 	<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
 		<info compressed="false">http://mullafabz.net.rw/Plugins/addons.xml</info>
@@ -686,34 +499,6 @@ http://www.ozbeceriksizler.com/forumdisplay.php?66-IPTV-Online-TV</description>
 <disclaimer lang="en">Copyright of androidrepublica.com</disclaimer>
 <platform>all</platform>
 </extension>
-</addon>
-	<addon id="plugin.video.bonnie"
-       name="[B][COLOR yellow]Bonnie[/COLOR][COLOR white]=[/COLOR][COLOR dodgerblue]Clyde[/COLOR][/B]"
-       version="2.6.7"
-       provider-name="Freeworld">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Bonnie Clyde based on livestreamspro 2.6.7 by Shani</summary>
-    <description>Bonnie Clyde It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet..</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 	<addon id="repository.bubbles.1" version="2.0.0" name="Bubbles Repository 1" provider-name="Bubbles">
 	<extension point="xbmc.addon.repository" name="Bubbles Repository 1">
@@ -751,7 +536,7 @@ http://www.ozbeceriksizler.com/forumdisplay.php?66-IPTV-Online-TV</description>
             <platform>all</platform>
     </extension>
 </addon>
-	<addon id="repository.cerebro" name=".CrebroTVRepo" version="1.2" provider-name="Biglad">
+	<addon id="repository.cerebro" name=".CrebroTVRepo" version="1.9" provider-name="Biglad">
 	<extension point="xbmc.addon.repository" name=".CrebroTVRepo">
 		<info compressed="false">https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/addons.xml.md5</checksum>
@@ -760,23 +545,6 @@ http://www.ozbeceriksizler.com/forumdisplay.php?66-IPTV-Online-TV</description>
 	<extension point="xbmc.addon.metadata">
 		<summary></summary>
 		<description>Cerebro TV Repo</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-	<addon id="repository.movieshark" version="2.3" name="MovieShark repository" provider-name="MSrepo">
-	<extension point="xbmc.addon.repository" name="MovieShark repository 2.3">
-		<dir>
-			<info compressed="false">http://repo.movieshark.xyz/addons.xml</info>
-			<checksum>http://repo.movieshark.xyz/addons.xml.md5</checksum>
-			<datadir zip="true">http://repo.movieshark.xyz/plugins/</datadir>
-		</dir>
-		<info compressed="false">http://repo.movieshark.xyz/addons.xml</info>
-		<checksum>http://repo.movieshark.xyz/addons.xml.md5</checksum>
-		<datadir zip="true">http://repo.movieshark.xyz/plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">MovieShark Repository 2.3</summary>
-		<description lang="en">Az MSREPO Magyarország legnagyobb KODI-hoz fejlesztett magyar nyelvű kiegészítőinek tárolóhelye. Itt megtalálod a legismertebb média tartalmait más hasznos kiegészítőkkel egyetemben. A repository semmilyen illegális anyagot nem tartalmaz, az információk nem egyediek – bárki által szabadon hozzáférhetők az interneten. A legtöbb kiegészítőnél maga a jogtulajdonos tette lehetővé a tartalmak ingyenes megtekintését. A telepítésüket senkinek nem ajánljuk, csupán kisérleti jelleggel készültek. A használatukból eredő következményekért a felelősség a felhasználót terheli. </description>
 		<platform>all</platform>
 	</extension>
 </addon>
