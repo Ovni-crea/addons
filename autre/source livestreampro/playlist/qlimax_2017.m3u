@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1,Phuture Noize @ Qlimax 2017
 plugin://plugin.video.youtube/?action=play_video&videoid=xjTs0UXKynQ
+#EXTINF:-1,D-Block & S-te-Fan @ Qlimax 2017
+plugin://plugin.video.youtube/?action=play_video&videoid=dFNXRtLUrZQ
