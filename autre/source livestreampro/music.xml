@@ -2,6 +2,6 @@
   <item>
         <title>Qlimax 2017</title>
         <link>http://Ignoreme</link>
-        <externallink>plugin://plugin.video.f4mTester/?url=https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/playlist/qlimax_2017.m3u</externallink>
+        <f4m>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/source%20livestreampro/playlist/qlimax_2017.m3u</f4m>
   </item>
 </items>
