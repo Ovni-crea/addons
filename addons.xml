@@ -1362,41 +1362,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <description><![CDATA[Follow @pulsarhq on Twitter]]></description>
     </extension>
 </addon>
-	<addon id="plugin.video.moviefrance"
-       name="MovieFrance"
-       version="1.0"
-       provider-name="Ovni-Créa-Ovni-tek">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="repository.ovnitekquasar"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube"/>
-	<import addon="plugin.video.SportsDevil"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer"/>
-     <import addon="script.module.pyamf" optional="true"/>
-	 <import addon="plugin.video.quasar"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  
-  	
-  <extension point="xbmc.addon.metadata">
-    <summary>MovieFrance</summary>
-    <description>
-        Bienvenue sur l'addon MovieFrance Créer par Ovni-Créa  et Ovni-tek             
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
 	<addon id="repository.ovnitekquasar" name="[COLOR FFFFD800]Quasar repository[/COLOR]" version="1.0" provider-name="Ovni tek,Ovni crea ">
 	<extension point="xbmc.addon.repository" name="Ovni tek,Ovni crea">
 		<info compressed="false">https://raw.githubusercontent.com/Ovni-crea/quasar/master/addons.xml</info>
