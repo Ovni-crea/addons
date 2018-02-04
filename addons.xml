@@ -1668,4 +1668,102 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<news>Added new artwork</news>
 	</extension>
 </addon>
+	<addon id="plugin.video.elysiumlite" name="Elysium Lite" version="2018.01.22" provider-name="Elysium">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="script.module.nanscrapers" version="0.5.5"/>
+    <import addon="script.module.python.koding.aio" version="0.9.6.6"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="script.module.xmltodict" version="0.9.0" />
+    <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+    <import addon="script.module.urlresolver" version="1.2.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>audio video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="[login|startup]"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The best bits of Elysium</summary>
+    <summary lang="nl">Het beste van Elysium</summary>
+    <summary lang="he">הרחבת וידאו Jen</summary>
+    <description lang="en">The best bits of Elysium. This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+    <description lang="nl">Het beste van Elysium. Dit produkt gebruikt de TMDb API maar is niet onderschreven of gecertificeerd door TMDb.</description>
+    <disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk! This is a stripped down version of Elysium using the Jen Template.</disclaimer>
+    <disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
+    <platform>all</platform>
+    <news>First release / Huge thanks to: Midraal, ARB, Blue, Bromerzz, DaButcher, Deezel, Les, Team NaN, Midraal (yes, I know but he deserves to be mentioned more then once)</news>
+    <website>www.noobsandnerds.com</website>
+    <video_guide>xtOqLY5PJDY</video_guide>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/screenshots/screenshot000.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+	<addon id="script.module.addon.common" 
+	     name="Common addon methods" 
+	     version="2.0.1" 
+	     provider-name="Eldorado (original: t0mm0)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>  
+  </extension>
+</addon>
+	<addon id="script.module.python.koding.aio"
+   name="Python Koding AIO"
+   version="0.9.9.3.4"
+   provider-name="Total Revolution">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="1.2.0"/>
+    <import addon="script.module.requests" version="2.3.0"/>
+    <import addon="script.module.beautifulsoup" version="2.1.31"/>
+    <import addon="script.module.unidecode" version="0.4.16"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Python Koding All In One</summary>
+    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <license>Creative Commons 4.0-NC-ND</license>
+    <forum>http://totalrevolution.tv/forum</forum>
+    <website>http://totalrevolution.tv</website>
+    <news>Updated forum and new github links</news>
+    <source>https://github.com/totalrevolution/python-koding/tree/master/script.module.python.koding.aio</source>
+  </extension>
+</addon>
+	<addon id="script.module.xmltodict" name="xmltodict" version="0.9.0" provider-name="martinblech">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary lang="en">Python helper module</summary>
+        <description lang="en">xmltodict is a Python module that makes working with XML feel like you are working with JSON, as in this "spec".[CR]</description>
+        <license>MIT</license>
+        <platform>all</platform>
+        <website>https://github.com/martinblech/xmltodict</website>
+        <source>https://github.com/martinblech/xmltodict</source>
+        <forum></forum>
+    </extension>
+</addon>
 </addons>
