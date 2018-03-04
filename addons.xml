@@ -7,7 +7,7 @@
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
-    
+
 
     <extension point="xbmc.addon.metadata">
         <summary>f4mTester</summary>
@@ -15,9 +15,9 @@
         <platform>all</platform>
     </extension>
 </addon>
-  <addon id="script.video.F4mProxy" 
-	     name="F4mProxy" 
-	     version="2.8.7" 
+  <addon id="script.video.F4mProxy"
+	     name="F4mProxy"
+	     version="2.8.7"
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -29,7 +29,7 @@
   </extension>
 
 
-    
+
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Proxy for f4m</summary>
@@ -239,8 +239,8 @@ v1.0
 
 		 CazWall.com | Kodi, Tech and More! This Repo is not an Official Repo for any of the add-ons in it. It's simply an easy spot for my followers. "Peace in Caribbean, Peace in the Middle East, to God be the Glory!"
 
-		</description> 
-		
+		</description>
+
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -279,7 +279,7 @@ v1.0
 	<extension point="xbmc.addon.metadata">
 		<summary>Unofficial Kodi Addons from TVADDONS.CO</summary>
 		<description>Unofficial Kodi Addons from the TVADDONS.CO Add-on Repository. Please visit www.tvaddons.co for support!
-                      
+
 Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
          <disclaimer>TVADDONS.CO did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
 		<platform>all</platform>
@@ -329,11 +329,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <description lang="en">Find and play daily IPTV lists in blogs and websites.</description>
     </extension>
 </addon>
-	<addon id="plugin.video.DJLIPTV" 
-       name="[COLOR orange]DJL[/COLOR] [COLOR white]IPTV[/COLOR] [COLOR gold]ADDON[/COLOR]" 
-	   version="1.0" 
+	<addon id="plugin.video.DJLIPTV"
+       name="[COLOR orange]DJL[/COLOR] [COLOR white]IPTV[/COLOR] [COLOR gold]ADDON[/COLOR]"
+	   version="1.0"
 	   provider-name="DJLIPTV">
-	   
+
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -389,7 +389,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 [Bug] TF1 group: Fix wrong Video URL format
 [Bug] TMC, NT1 and HD1: Fix missing setting to set video quality
 [Improvement] TF1 group: Add missing date and duration for videos
-    </news> 
+    </news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -461,7 +461,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" /> 
+    <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
 
@@ -540,7 +540,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.addon.repository" name=".CrebroTVRepo">
 		<info compressed="false">https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/zips/</datadir>  
+		<datadir zip="true">https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary></summary>
@@ -618,19 +618,19 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <import addon="plugin.video.youtube" optional="true" />
 	<import addon="plugin.video.SportsDevil" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
+    <import addon="script.module.simplejson" />
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  
-  	
+
+
   <extension point="xbmc.addon.metadata">
     <summary>Milhano</summary>
     <description>
-        O Trabalho aqui desenvolvido é fruto de muitas horas de pesquisa e testes.NÃO O PARTILHES!!!             
+        O Trabalho aqui desenvolvido é fruto de muitas horas de pesquisa e testes.NÃO O PARTILHES!!!
     </description>
     <platform>all</platform>
   </extension>
@@ -667,9 +667,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<summary lang="en">Covenant</summary>
 	</extension>
 </addon>
-	<addon id="script.module.metahandler" 
-     name="metahandler" 
-     version="3.0.2" 
+	<addon id="script.module.metahandler"
+     name="metahandler"
+     version="3.0.2"
      provider-name="Eldorado, jsergio">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -835,9 +835,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <platform>all</platform>
   </extension>
 </addon>
-	<addon id="script.module.liveresolver" 
-     name="LiveResolver" 
-     version="0.1.49" 
+	<addon id="script.module.liveresolver"
+     name="LiveResolver"
+     version="0.1.49"
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -850,7 +850,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
-    <description lang="en"></description>    
+    <description lang="en"></description>
   </extension>
 </addon>
 	<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.41" provider-name="Team NaN">
@@ -880,7 +880,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 	<addon id="script.module.simplejson"
        name="simplejson"
-       version="3.4.0" 
+       version="3.4.0"
        provider-name="Bob Ippolito">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -941,7 +941,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
        version="1.9.0"
        provider-name="gutworth">
   <requires>
-    <import addon="xbmc.python" 
+    <import addon="xbmc.python"
     		version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.module"
@@ -988,12 +988,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="plugin.video.quasar" version="0.9.78" optional="true" />
 		<import addon="script.trakt" version="3.1.11" optional="true" />
 	</requires>
-	
+
 	<extension point="xbmc.python.pluginsource" library="bubbles.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
-	
+
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Stream Movies and Shows</summary>
 		<description lang="en">Stream movies, shows, documentaries, and short films from a variety of sources, such as torrents, usenet, file hosters, and video streaming services.</description>
@@ -1149,7 +1149,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
    <!-- <import addon="script.video.F4mProxy" /> -->
    <!-- <import addon="plugin.video.f4mTester" /> -->
   </requires>
-  <extension 
+  <extension
     point="xbmc.python.pluginsource"
     library="default.py">
    <provides>video</provides>
@@ -1158,7 +1158,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point="xbmc.addon.metadata">
     <summary lang="en">SportsDevil addon</summary>
     <description lang="en">Play videos of different ad-financed sports streaming sites.</description>
-    <description lang="he">נגן סרטונים של אתרי ספורט שונים הממומנים על ידי מודעות.</description> 
+    <description lang="he">נגן סרטונים של אתרי ספורט שונים הממומנים על ידי מודעות.</description>
     <disclaimer lang="en">SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme.</disclaimer>
     <disclaimer lang="he">SportsDevil אינו מספק שום הזרמה; איכות הזרם, התוכן וזכויות היוצרים הם באחריות אתר האינטרנט הממומן על ידי המודעה. לעדכונים בדוק את קובץ readme</disclaimer>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -1227,7 +1227,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
        version="3.2.1"
        provider-name="Leonard Richardson (leonardr@segfault.org)">
   <requires>
-    <import addon="xbmc.python" 
+    <import addon="xbmc.python"
     		version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.module"
@@ -1244,7 +1244,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
        version="4.5.3"
        provider-name="Leonard Richardson (leonardr@segfault.org)">
   <requires>
-    <import addon="xbmc.python" 
+    <import addon="xbmc.python"
              version="2.25.0"/>
   </requires>
   <extension point="xbmc.python.module"
@@ -1495,7 +1495,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 	<addon id="plugin.video.blamo" version="2.4.1" name="Death Streams" provider-name="Mr.Blamo">
-    <requires>        
+    <requires>
 		<import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.pyxbmct" version="1.1.4"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1514,7 +1514,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Stream video from many difference sources, SALTS fork by MR.Blamo</summary>
         <summary lang="hr">Gledajte video iz različitih izvora, SALTS fork od MR.Blamo</summary>
-        <summary lang="he">הזרמת וידאו ממקורות שונים רבים, פיתוח משנה של SALT על ידי MR.Blamo</summary>    
+        <summary lang="he">הזרמת וידאו ממקורות שונים רבים, פיתוח משנה של SALT על ידי MR.Blamo</summary>
         <description lang="en">This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
         <description lang="hr">Ovaj dodatak koristi trakt.tv za većinu metapodataka filmova i TV serija a koristi različite web stranice za izvore</description>
         <description lang="he">ההרחבה הזו משתמשת ב- trakt.tv עבור רוב נתוני מידע-מטא של הסרטים והסדרות ומשתמשת במגוון אתרי אינטרנט עבור מקורות מארחים</description>
@@ -1610,7 +1610,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <website>http://romanvm.github.io/PyXBMCt</website>
     <email>romanvm@yandex.ua</email>
     <source>https://github.com/romanvm/script.module.pyxbmct</source>
-  </extension>  
+  </extension>
 </addon>
 	<addon id="plugin.video.elysium" version="2018.01.18" name="Elysium" provider-name="Elysium">
     <requires>
@@ -1703,9 +1703,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </assets>
   </extension>
 </addon>
-	<addon id="script.module.addon.common" 
-	     name="Common addon methods" 
-	     version="2.0.1" 
+	<addon id="script.module.addon.common"
+	     name="Common addon methods"
+	     version="2.0.1"
 	     provider-name="Eldorado (original: t0mm0)">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1722,7 +1722,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <forum></forum>
     <website></website>
     <email></email>
-    <source></source>  
+    <source></source>
   </extension>
 </addon>
 	<addon id="script.module.python.koding.aio"
@@ -1785,9 +1785,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <disclaimer lang="en">[COLOR red][B][I] Mr Entertainment. [/B][/I][/COLOR] [COLOR red][B][I]YOU will need a debrid premium account for this addon[/B][/I][/COLOR]</disclaimer>
     </extension>
 </addon>
-	<addon id="script.module.TheYid.common" 
-	     name="TheYid's common stuff" 
-	     version="0.1.2" 
+	<addon id="script.module.TheYid.common"
+	     name="TheYid's common stuff"
+	     version="0.1.2"
 	     provider-name="TheYid">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2064,6 +2064,63 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<summary>Metadata for the Showboxarize Addon</summary>
 		<description>Metadata for Showboxarize are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
+	</extension>
+</addon>
+    <addon id="plugin.video.exodus" version="5.0.0" name="Exodus" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.exodus" />
+		<import addon="script.exodus.artwork" version="1.0.0" />
+		<import addon="script.exodus.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="exodus.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Exodus</summary>
+		<description lang="en">Please visit [COLOR blue]www.tvaddons.co[/COLOR] for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<description lang="de">Bitte besuche [COLOR blue]www.tvaddons.co[/COLOR] für Unterstützung und Fragen zu Exodus! Beachte dabei, dass Exodus nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde.</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<description lang="fr">SVP visitez [COLOR blue]www.tvaddons.co[/COLOR] pour avoir de l'aide sur Exodus. Prenez note qu'Exodus n'est pas une partie intégrante de votre outil de visionnement multimedia et SVP ne le mentionnez pas dans les media sociaux officiels, cet addiciel n'a rien a voir avec votre lecteur multimedia lui même, c'est simplement un addiciel qui a été ajouté à votre système.</description>
+		<disclaimer lang="fr">L'auteur n'héberge pas ou ne distribue pas le contenu qui vous est affiché avec cet addiciel. L'auteur n'a pas d'alliance avec les distributeurs de contenu.</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum>https://www.tvaddons.co/forums/</forum>
+		<website>https://www.tvaddons.co/</website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+    <addon id="script.exodus.metadata" version="1.0.2" name="Exodus Metadata" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Exodus Addon</summary>
+		<description>Metadata for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+    <addon id="script.module.exodus" name="Exodus Module" version="1.00.030" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Exodus</summary>
 	</extension>
 </addon>
 </addons>
