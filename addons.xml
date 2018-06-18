@@ -2102,7 +2102,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<news></news>
 	</extension>
 </addon>
-        <addon id="script.exodus.metadata" version="1.0.2" name="Exodus Metadata" provider-name="Exodus">
+        <addon id="script.exodus.metadata" version="1.0.3" name="Exodus Metadata" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -2113,7 +2113,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<platform>all</platform>
 	</extension>
 </addon>
-        <addon id="script.module.exodus" name="Exodus Module" version="1.00.030" provider-name="Exodus">
+        <addon id="script.module.exodus" name="Exodus Module" version="1.20" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
