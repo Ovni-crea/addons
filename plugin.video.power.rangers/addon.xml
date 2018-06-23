@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.power.rangers" name="POWER RANGERS" version="6.0.1" provider-name="BRETTUS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="community.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch All Episodes And Movies For All That Is Power Rangers</summary>
+    <description lang="en">A closeknit band of teenagers in fictional Angel Grove, Calif., transforms into a uniformed team of superheroes ready to take on any villains. Their primary focus is Rita Repulsa, a space villainess captured long ago by the wise sage Zordon and inadvertently freed by astronauts. Zordon recruits the teens to help him recapture Rita, and later to battle against Lord Zedd, Rito Revolto, and Master Vile
+</description>
+    <platform>all</platform>
+  </extension>
+</addon>
