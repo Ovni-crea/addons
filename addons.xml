@@ -2597,4 +2597,54 @@ Does not work on kodi 17
 		<platform>all</platform>
 	</extension>
 </addon>
+	<addon id="plugin.program.BRETTUSmessages" version="1.1.1" name="BRETTUS MESSAGES" provider-name="BRETTUS">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary></summary>
+  	<description>This is a modified version of TVADDONS Notifications.</description>
+  	<disclaimer></disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum></forum>
+  	<website></website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
+	<addon id="plugin.video.enzo" name="[COLOR green]Enzo[/COLOR]" version="1.7" provider-name="F.T.F.A">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+		<!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" version="5.0.0.5" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en"></summary>
+      <summary lang="he"></summary>
+      <description lang="en">Enzo is a on demand add on from team F.T.F.A</description>
+      <description lang="he"></description>
+      <disclaimer lang="en">The author of this add on do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <disclaimer lang="he"></disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
 </addons>
