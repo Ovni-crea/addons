@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.filmemporium_gw" name="Film Emporium" version="2.2.2" provider-name="Dandymedia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" />
+    <import addon="script.module.muckys.common" version="1.3.5" />
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Movie and TV</summary>
+    <description lang="en">Huge catalogue of free one click links to Movies and TV shows old and new.......Enjoy[CR][CR][B][COLOR red]Please note the source is HTTPS[/COLOR][/B][CR]Kodi 17 or Elec 16 and above required.</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
