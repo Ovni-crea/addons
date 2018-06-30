@@ -3036,4 +3036,242 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
 </addon>
+	<addon id="plugin.video.aragon" name=" [COLOR gold][B]A[COLOR lime]RAGON [COLOR gold][B]L[COLOR lime]IVE[/B][/COLOR]" version="1.0.4" provider-name="RACC/Gandelf">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.aragon.net" version="1.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">ARAGON LIVE</summary>
+      <description lang="en">Credit goes to RACC for the scripts used in this addon.This addon is powered by JEN. This addon simply links to websites for content that are freely available on the internet . Use at your own risk!</description>
+      <disclaimer lang="en">This addon does not host any content.This addon does not form part of the Kodi Foundation. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
+	<addon id="plugin.video.DENISLIST" name="DENIS LIST" version="1.0.1" provider-name="DENIS">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>TV AND MOVIES by Denis </summary>
+        <description>DENIS LIST</description>
+    </extension>
+</addon>
+	<addon id="plugin.video.DONTV" name="[B][COLOR red]DON TV[/COLOR][/B]" version="1.2" provider-name="Tojelako">
+  <requires>
+    <import addon="plugin.video.f4mTester"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>plugin.video.DONTV</summary>
+    <description>    
+	
+    </description>
+<platform>all</platform>
+  <assets>Vlasnik ovog addona ne poseduje nikakav matrijal unutar ovog addona . 
+	Koristi linkove koji su dostupni na internetu.
+	I ne snosi nikakvu odgovornost za njegovu upotrebu.
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+  </extension>
+</addon>
+	<addon id="plugin.video.EuroDennislist" name="[B][COLOR blue]Euro Dennis list[/COLOR][/B]" version="1.0" provider-name="Tojelako">
+  <requires>
+    <import addon="plugin.video.f4mTester"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>plugin.video.EuroDennislist</summary>
+    <description>    
+	
+    </description>
+<platform>all</platform>
+  <assets>Vlasnik ovog addona ne poseduje nikakav matrijal unutar ovog addona . 
+	Koristi linkove koji su dostupni na internetu.
+	I ne snosi nikakvu odgovornost za njegovu upotrebu.
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+  </extension>
+</addon>
+	<addon id="plugin.video.FANItv" name="[B][COLOR red]FANI tv[/COLOR][/B]" version="1.0" provider-name="Tojelako">
+  <requires>
+    <import addon="plugin.video.f4mTester"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="false"/>
+    <import addon="plugin.video.youtube" optional="false" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>plugin.video.FANItv</summary>
+    <description>    
+	
+    </description>
+<platform>all</platform>
+  <assets>Vlasnik ovog addona ne poseduje nikakav matrijal unutar ovog addona . 
+	Koristi linkove koji su dostupni na internetu.
+	I ne snosi nikakvu odgovornost za njegovu upotrebu.
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+  </extension>
+</addon>
+	<addon id="plugin.video.Nevena" name="[B][COLOR red]Nevena[/COLOR][/B]" version="1.1.2" provider-name="Tojelako">
+  <requires>
+    <import addon="plugin.video.f4mTester"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="false"/>
+    <import addon="plugin.video.youtube" optional="false" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>plugin.video.Nevena</summary>
+    <description>    
+	
+    </description>
+<platform>all</platform>
+  <assets>Vlasnik ovog addona ne poseduje nikakav matrijal unutar ovog addona . 
+	Koristi linkove koji su dostupni na internetu.
+	I ne snosi nikakvu odgovornost za njegovu upotrebu.
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+  </extension>
+</addon>
+	<addon id="plugin.video.ProfiMedia" name="[B][COLOR gold]Profi Media[/COLOR][/B]" version="1.0" provider-name="Tojelako">
+  <requires>
+    <import addon="plugin.video.f4mTester"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="false"/>
+    <import addon="plugin.video.youtube" optional="false" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>plugin.video.ProfiMedia</summary>
+    <description>    
+	
+    </description>
+<platform>all</platform>
+  <assets>Vlasnik ovog addona ne poseduje nikakav matrijal unutar ovog addona . 
+	Koristi linkove koji su dostupni na internetu.
+	I ne snosi nikakvu odgovornost za njegovu upotrebu.
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+  </extension>
+</addon>
+	<addon id="plugin.video.Tojelako TV"
+       name="Tojelako TV"
+       version="1.0.3"
+       provider-name="Tojelako">
+    <requires>
+	    <import addon="plugin.program.tojelako" version="0.0.4"/>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Tojelako TV</summary>
+        <description lang="en">Pronadjite i Reprodukujte Dnevne IPTV liste na Blogovima i Web Sajtovima.</description>
+    </extension>
+</addon>
+	<addon id="plugin.video.tvtap" name="[B]Tap[I]Tv[/I] APP[/B]" version="1.0" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">tvtap app streams</summary>
+    <description lang="en">tvtap app streams</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
 </addons>
