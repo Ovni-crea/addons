@@ -3274,4 +3274,145 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     <source></source>
   </extension>
 </addon>
+	<addon id="plugin.video.KB" version="1.0.3" name="KB" provider-name="Tojelako">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.KB" />
+		<import addon="script.KB.artwork" version="1.0.1" />
+		<import addon="script.KB.metadata" version="1.0.0" />
+		<import addon="script.module.resolveurl" version="5.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="KB.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">KB</summary>
+		<description lang="en">[COLOR aqua]KB Movies and TV. This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels. The author does not host any of the content in this addon and takes no responsibility for content found[/COLOR].</description>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<assets>
+			<icon>icon.jpg</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.png</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.png</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.png</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+	<addon id="plugin.video.tojelako" version="1.0.1" name=" [B][COLOR mediumblue]T[/COLOR][COLOR red]ojelak[/COLOR][COLOR mediumblue]O[/COLOR][/B]" provider-name="Tojelako">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.tojelako" />
+		<import addon="script.tojelako.artwork" version="1.0.0" />
+		<import addon="script.pair.tool" version="1.0" />
+		<import addon="script.tojelako.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="4.0.17" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="tojelako.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Tojelako</summary>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<assets>
+			<icon>icon.gif</icon>
+			<fanart>icon.gif</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+	<addon id="script.KB.artwork" version="1.0.1" name="KB Artwork" provider-name="Tojelako">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the KB Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.KB.metadata" version="1.0.0" name="KB Metadata" provider-name="Tojelako">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the KB Addon</summary>
+		<description>Metadata for KB are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.module.KB" name="KB Module" version="1.00.000" provider-name="Tojelako">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">KB</summary>
+	</extension>
+</addon>
+	<addon id="script.module.tojelako" name="Tojelako Module" version="1.0.0" provider-name="Tojelako">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Tojelako</summary>
+	</extension>
+</addon>
+	<addon id="script.pair.tool"
+  name="Pair Tools"
+  version="1.1" 
+  provider-name="Tojelako">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Pair Tools</summary>
+    <description lang="en">Pair Tools</description>
+	<disclaimer>Pair Tools</disclaimer>
+  </extension>
+</addon>
+	<addon id="script.tojelako.artwork" version="1.0.0" name="Tojelako Artwork" provider-name="Tojelako">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Tojelako Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.tojelako.metadata" version="1.0.0" name="Tojelako Metadata" provider-name="Tojelako">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Tojelako Addon</summary>
+		<description>Metadata for Tojelako are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
