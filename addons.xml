@@ -3661,4 +3661,301 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     <source></source>
   </extension>
 </addon>
+	<addon id="plugin.video.blamo" version="2.6.1" name="Death Streams" provider-name="Mr.Blamo">
+    <requires>        
+		<import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.pyxbmct"/>
+        <import addon="script.module.resolveurl" />
+		<import addon="script.module.metahandler" />
+		<import addon="script.module.futures"/>
+        <import addon="script.module.myconnpy" />
+        <import addon="script.module.deathstreams"/>
+		<import addon="script.module.requests" />
+        <import addon="script.module.six"/>
+        <import addon="script.module.dateutil"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Stream video from many difference sources, SALTS fork by MR.Blamo</summary>
+        <summary lang="hr">Gledajte video iz različitih izvora, SALTS fork od MR.Blamo</summary>
+        <summary lang="he">הזרמת וידאו ממקורות שונים רבים, פיתוח משנה של SALT על ידי MR.Blamo</summary>    
+        <description lang="en">This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
+        <description lang="hr">Ovaj dodatak koristi trakt.tv za većinu metapodataka filmova i TV serija a koristi različite web stranice za izvore</description>
+        <description lang="he">ההרחבה הזו משתמשת ב- trakt.tv עבור רוב נתוני מידע-מטא של הסרטים והסדרות ומשתמשת במגוון אתרי אינטרנט עבור מקורות מארחים</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+		<platform>all</platform>
+		<license>Beerware rev. 42</license>
+	<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="plugin.video.chocolatesaltyballs" name="[COLORorange]Chocolate Salty Balls[/COLOR]" version="6.1" provider-name="[COLORlimegreen]Team Deez Nutz[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <import addon="script.module.resolveurl" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Big Chocolate Salty Balls</summary>
+      <description lang="en">Brought to you by Team Deez Nutz</description>
+      <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+      <platform>all</platform>
+      <license>Beerware rev. 42</license>
+    </extension>
+</addon>
+	<addon id="plugin.video.neptune" version="1.4.5" name=" Neptune Rising" provider-name="Mr. Blamo">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.neptune.artwork" />
+		<import addon="script.neptune.metadata" />
+                <import addon="script.module.resolveurl"/>
+                <import addon="script.module.metahandler"/>
+                <import addon="script.module.requests"/>
+                <import addon="script.module.beautifulsoup"/>
+                <import addon="script.module.schism.common"/>
+                <import addon="script.module.futures"/>
+        		<import addon="script.module.universalscrapers" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="neptune.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Neptune Rising</summary>
+		<description lang="en">Movie, TV Show, and Playlist Add-on</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+		<platform>all</platform>
+		<license>Beerware rev. 42</license>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+	<addon id="plugin.video.saltsrd.lite" version="2.0.238" name="Salts RD Lite" provider-name="XvBMC-NL">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="repository.xvbmc" version="4.2"/>                           <!--     RD Lite MOD     -->
+        <import addon="script.module.futures" version="2.2.0"/>                             <!--    NEW     -->
+        <import addon="script.module.metahandler" version="3.0.2" />                        <!--    NEW     -->
+        <import addon="script.module.pyxbmct" version="1.2.0"/>                             <!--    NEW     -->
+        <!--    <import addon="repository.tknorris.beta" version="1.0.5" optional="true"/>  !!stopped!!     -->
+        <!--    <import addon="repository.k3l3vra" version="1.0.1"/ optional="true"/>       !!stopped!!     -->
+        <!--    <import addon="repository.Cypherslocker" version="1.0.2"/ optional="true"/> !!stopped!!     -->
+        <import addon="script.module.dateutil" version="2.5.3"/>
+        <import addon="script.module.myconnpy" version="1.1.7"/>
+        <import addon="script.module.saltsrd.shared" version="0.0.23"/>  <!-- script.module.tknorris.shared -->
+        <import addon="script.module.six" version="1.9.0"/>
+        <import addon="script.module.urlresolver" version="4.0.12"/>
+        <!-- <import addon="script.module.image_cache" version="0.0.8" optional="true"/>    BROKEN !!!      -->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+        <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Stream video from many difference sources with XvBMC SALTs RD Lite (RealDebrid)</summary>
+        <description>This is the MOD version of SALTs by XvBMC -4- RealDebrid usage (also a big thx to: TKnorris/k3l3vra/Cypher/MR.Blamo)</description>
+        <disclaimer>MOD info @ http://bit.ly/XvBMC-NL (USE_AT_YOUR_OWN!_RISK!) ---> *C*R*E*D*I*T*S* TKnorris/k3l3vra/Cypher/MR.Blamo</disclaimer>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <forum>https://www.facebook.com/groups/XvBMCnederland/</forum>
+        <website>repository.xvbmc</website>
+        <source>http://bit.ly/XvBMC-NL</source>
+        <news>[B]Version 2.0.238[/B]: VoOdOo</news>
+        <assets>
+          <icon>icon.png</icon>
+          <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+	<addon id="plugin.video.uiptv"
+       name="Ultimate IPTV"
+       version="1.0.5"
+       provider-name="Whitecream">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Ultimate IPTV</summary>
+        <description lang="en">Access the IPTV lists from a blog. Daily new links.</description>
+    </extension>
+</addon>
+	<addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory" version="4.2.1" provider-name="XvBMC Nederland">
+    <extension point="xbmc.addon.repository" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    <!--<dir>
+            <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+        </dir>-->
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+            <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Look-and-Feel/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Look-and-Feel/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Look-and-Feel/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/zips/</datadir>
+            <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">XvBMC The Netherlands (Add-ons) REPOsitory #DUTCH #NL</summary>
+        <summary lang="nl">XvBMC Nederland (Add-ons) REPOsitory #NL #DUTCH</summary>
+        <description lang="en">XvBMC The Netherlands (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  be sure to check out our FB-page: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
+        <description lang="nl">XvBMC Nederland (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  en volg zeker ook onze Facebook pagina: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
+        <disclaimer lang="en">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
+        <disclaimer lang="nl">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <forum>https://www.fb.com/groups/XvBMCnederland/</forum>
+        <website>http://bit.ly/XvBMC-NL</website>
+        <source>https://archive.org/download/repository.xvbmc/</source>
+        <size>946176</size>
+        <news>Release v4.2.1 Mo' XvBMC VoOdOo...</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>xbmc.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+	<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="1.1.9" provider-name="Mr.Blamo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Credit to TKnorris</summary>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+		<platform>all</platform>
+		<license>Beerware rev. 42</license>
+	</extension>
+</addon>
+	<addon id="script.module.saltsrd.shared" name="Salts RD Lite - Common Libraries" version="1.0.1" provider-name="XvBMC-NL">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Credits -2- TKnorris / Mr. Blamo</summary>
+	</extension>
+</addon>
+	<addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.0.9.3" provider-name="Team Universal">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+        <import addon="script.module.futures" version="2.2.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.six"/>
+        <import addon="repository.universalscrapers"/>
+	<import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
+
+                <!--<import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
+            <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
+            </description>
+            <license>GPL v3</license>
+            <source>https://</source>
+        </extension>
+</addon>
+	<addon id="script.neptune.artwork" version="1.1.2" name="Neptune Rising Artwork" provider-name="Mr. Blamo">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Neptune Rising Addon</summary>
+		<description>Themes for Neptune Rising are maintained separately to make distribution of the the addon itself easier/faster.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+		<platform>all</platform>
+		<license>Beerware rev. 42</license>
+	</extension>
+</addon>
+	<addon id="script.neptune.metadata" version="1.0.4" name="Neptune Rising Metadata" provider-name="Mr.Blamo">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Neptune Rising Addon</summary>
+		<description>Metadata for Neptune Rising are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
