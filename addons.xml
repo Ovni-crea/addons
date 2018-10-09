@@ -5091,4 +5091,519 @@ V2.0.0.3
 		<platform>all</platform>
 	</extension>
 </addon>
+	<addon id="plugin.video.fantastic" version="3.2" name="Fantastic" provider-name="Firestickplusman">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.fantastic" />
+		<import addon="script.fantastic.artwork" version="1.0.0" />
+		<import addon="script.fantastic.metadata" version="0.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="fantastic.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">fantastic</summary>
+<description lang="en">[I]New Resistance[/I][CR][CR][B]Fantastic - Media for the Masses[/B][CR][CR]This addon is not have any part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>
+[COLOR red]Fixed double scrapers[/COLOR]
+List of providers 
+https://www.ultrahdindir.net
+https://tvbox.ag
+https://xmovies8.nz
+https://yesmovies.to
+https://www1.seriesonline8.co
+https://123movies.ph
+http://www2.vioozfree.net
+http://freeputlockers.org
+http://hdpopcorns.co
+http://www3.fmovies.sc
+http://www2.fmovies.ag
+http://123moviesb.com
+http://putlocker.bypassed.in
+http://enjoyelegance.com
+http://seriesonline.bz
+http://enigma-life.fr
+http://startingtogether.co.uk
+http://movies1234.net
+http://meimei-movie.com
+http://moviesonline.mx
+http://huluplus.in
+http://321movies.club
+http://putlockers.sh
+http://aln5eel.com
+http://moonsshine.com.br
+http://vetdonations.org
+http://rajahoki88.com
+http://imagebrickworks.com
+http://powerofgoddeliverancecenter.com
+http://seasidebrighton.com
+http://kabarmalay.info
+http://giochigratis.fr
+http://123netflix.unblockall.org
+http://spicewoodpoint.com
+http://asuransitakaful.net
+http://alchemyherbalhealing.com
+http://moviesonline.tl
+http://123free.net
+http://subscene.tv
+http://search.rlsbb.ru
+http://2ddl.io
+http://putlockers.tw
+http://moviestream1.site
+http://www2.putlockers.tf
+http://hd.today
+http://moviesonline.mn
+http://movies123.xyz
+http://123movie.ac
+http://123movie.fm
+http://putlockers.la
+http://putlocker.io
+http://moviesonline.gy
+http://123movie.sc
+http://e123movies.com
+http://i123movies.net
+http://123moviesonline.stream
+http://flenix.org
+http://coolmoviezone.info
+http://m4ufree.net
+http://123movieser.com
+http://chadan1.com
+http://freemoviedownloads6.com
+http://www.divxcrawler.tv 
+http://fmovie.fm
+http://movies123.ac
+http://123movies.net
+http://movies123.fm
+http://huluvip.net
+http://123moviesfreenow.com
+http://123movie.plus
+http://l23movies.com
+http://123movies.mn
+http://plocker.unblocked.wtf
+http://gomovies.gs
+http://z123movies.com
+http://www1.putlockers.mn
+http://gomoviesto.org
+http://solarmovie.net
+http://37rmm.com
+http://www2.0123movies.org
+http://www2.gostream.sc
+		</news>
+	</extension>
+</addon>
+	<addon id="plugin.video.gaia" version="3.2.5" name="Gaia" provider-name="Gaia">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+
+		<import addon="script.gaia.resources" version="3.2.5" />
+		<import addon="script.gaia.artwork" version="3.0.0" />
+		<import addon="script.gaia.binaries" version="3.0.0" optional="true" />
+		<import addon="script.gaia.icons" version="3.2.5" optional="true" />
+		<import addon="script.gaia.skins" version="3.0.0" optional="true" />
+		<import addon="skin.gaia.aeon.nox" version="2.2.0" optional="true" />
+		<import addon="repository.gaia" version="3.2.1" optional="true" />
+
+		<import addon="script.module.orion" version="1.0.3" />
+		<import addon="script.module.resolveurl" version="5.0.06" />
+		<import addon="script.module.urlresolver" version="3.0.29" />
+		<import addon="script.module.metahandler" version="2.9.0" />
+
+		<import addon="script.module.lambdascrapers" version="1.0.0" optional="true" />
+		<import addon="script.module.universalscrapers" version="1.0.0" optional="true" />
+		<import addon="script.module.nanscrapers" version="0.5.45" optional="true" />
+		<import addon="script.module.incursion" version="0.1.0" optional="true" />
+		<import addon="script.module.placenta" version="1.2.0" optional="true" />
+		<import addon="plugin.video.elementum" version="0.0.43" optional="true" />
+		<import addon="plugin.video.quasar" version="0.9.78" optional="true" />
+		<import addon="script.trakt" version="3.1.11" optional="true" />
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="gaia.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Stream Movies and Shows</summary>
+		<description lang="en">Stream movies, shows, documentaries, and short films from a variety of sources, such as torrents, usenet, file hosters, and video streaming services.</description>
+		<disclaimer lang="en">Gaia and its developers are not in any way affiliated with Kodi, Premiumize, OffCloud, RealDebrid, EasyNews, Orion, or any of the sites and providers used in the addon.<br/>Gaia is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.<br/>Gaia and its developers do not host, create, or distribute any of the content displayed in the addon, it simply searches public websites.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/?support</forum>
+		<assets>
+			<icon>icon.png</icon> <!-- Do not change file name. Required by older Kodi versions. -->
+			<fanart>fanart.jpg</fanart> <!-- Do not change file name. Required by older Kodi versions. -->
+			<screenshot>resources/media/screenshots/screenshot01.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot02.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot03.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot04.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot05.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot06.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot07.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot08.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot09.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot10.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+	<addon id="plugin.video.Galaxy" version="2.0" name="[COLOR gray]Galaxy[/COLOR]" provider-name="The Martian">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.Galaxy" />
+		<import addon="script.Galaxy.artwork" version="1.0.0" />
+		<import addon="script.Galaxy.metadata" version="1.0.0" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+        <import addon="plugin.video.youtube"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+        <provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR gray]Galaxy[/COLOR]</summary>
+		<description>[COLOR yellow]PLEASE READ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![/COLOR][COLOR lightblue]
+  Welcome to the Galaxy addon from Area-51. Please Read and accept the terms below to continue. Galaxy Kodi addon is absolutely legal and only contains links to other websites on the Internet. It does not host or upload any videos, films, or media files. The Galaxy Kodi addon simply aggregates links in a convenient, user-friendly interface. Galaxy is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of others linked sites. If you have any legal issue please contact the appropriate media file owners or host of these sites. Any legal issues regarding the free online TV shows or Movies on this 3rd party Kodi addon should be taken up with the actual file host and providers themselves, as Galaxy is not affiliated with them. All copyrights of TV shows, movies, and videos is reserved by the copyright owner(s). Use Galaxy at your own risk. 
+[/COLOR]</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+		<platform>all</platform>
+		<license>Beerware rev. 42</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+	<addon id="plugin.video.Legendary" version="2.4" name="Legendary" provider-name="Legendary">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.Legendary" />
+		<import addon="script.Legendary.artwork" />
+		<import addon="script.Legendary.metadata" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="Legendary.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Legendary</summary>
+		<description lang="en">[I]New Resistance[/I][CR][CR][B]Legendary - Media for the Masses[/B][CR][CR]This addon is not have any part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>
+[COLOR red]Fixed double scrapers[/COLOR]
+List of providers 
+https://xmovies8.nz                     Legendary (1)
+https://yesmovies.to                    Legendary (2)
+Library                                 Legendary (3)
+https://movie4k.io                      Legendary (4)
+https://www2.seriesonline8.co           Legendary (5)
+https://www.timetowatch.video           Legendary (6)
+https://movietube.online                Legendary (7)
+https://seriesfree.to                   Legendary (8)
+http://hdpopcorns.co                    Legendary (9)
+https://123movies.ph                    Legendary (10)
+http://bestrls.xyz                      Legendary (11)
+http://www.best-moviez.ws               Legendary (12)
+https://directdownload.tv               Legendary (13)
+https://ww4.gowatchseries.co            Legendary (14)
+https://www.300mbfilms.co               Legendary (15)
+http://www.divxcrawler.tv               Legendary (16)
+http://www2.vioozfree.net               Legendary (17)
+http://www.ultrahdindir.com             Legendary (18)
+http://search.rlsbb.ru                  Legendary (19)
+http://2ddl.ws                          Legendary (20)
+https://coolmoviezone.biz               Legendary (21)
+https://tvbox.ag                        Legendary (22)
+http://freemoviedownloads6.com          Legendary (23)
+http://www1.123moviesfreenow.com        Legendary (24)
+http://www.seehd.pl                     Legendary (25)
+https://www.icefilms.info               Legendary (26)
+		</news>
+	</extension>
+</addon>
+	<addon id="plugin.video.nemesis" name="[COLOR aqua][B]Nemesis[/B][/COLOR]" version="2.3.9" provider-name="[COLOR aqua]Nemzzy[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.liveresolver"/>
+    <import addon="script.common.plugin.cache"/>
+    <import addon="script.module.metahandler"/>
+    <import addon="script.module.resolveurl" />
+    <import addon="script.module.requests" />
+    <import addon="plugin.video.youtube" optional="false" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="nemesis.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR aqua]Nemesis Addon[/COLOR]</summary>
+    <description lang="en">[COLOR aqua]Nemesis Addon, We Do not host any streams or content, all information available in this addon is obtained using scrappers[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+	<addon id="plugin.video.nemesisaio" name="[COLOR red][B]N[COLOR white]emesis AIO[/B][/COLOR]" version="1.00.003" provider-name="@Nemzzy668">
+	<requires>
+	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.simplejson"/>
+	<import addon="script.module.resolveurl" />
+	<import addon="script.module.liveresolver"/>
+	<import addon="script.module.requests"/>
+	<import addon="script.module.nemzzy"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary lang="en">Nemesis AIO</summary>
+	<description lang="en">Created By @Nemzzy668, No Content within this add-on is hosted by us, All content is obtained using scrapers and fully available on the web</description>
+	<platform>all</platform>
+	<assets>
+	<icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+</assets>
+	</extension>
+</addon>
+	<addon id="plugin.video.theyidrh" version="6.5.1" name="Release [COLOR powderblue][B]HUB[/B][/COLOR]" provider-name="@MrEntertainRepo">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.TheYid.common" version="0.1.2"/>
+        <import addon="script.module.urlresolver"  version="5.0.09"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Release [B][I][COLOR powderblue]HUB[/COLOR][/B][/I]</summary>
+        <description>Release [B][I][COLOR powderblue]HUB[/COLOR][/B][/I] 30+ scene release sites all in one place.... [COLOR lime][B]SUPER ADDON[/B][/COLOR] [COLOR red][B][I]YOU will need a debrid premium account to get the best out of this addon. NOT FOR NOOBS[/B][/I][/COLOR] [COLOR mintcream][B][I]For more info go to @MrEntertainRepo[/B][/I][/COLOR] PLEASE REMOVE THIS ADDON FROM BEST OF YOUTUBE VIDEOS AND ADDON OF THE MONTH BALLSHIT BLOG POSTS - SHOW SOME RESPECT AND ASK THE ADDED DEV IF THEY WOULD LIKE THE ADDON TO BE IN VIDS OR BLOGS.</description>
+        <platform>all</platform>
+        <disclaimer lang="en">[COLOR red][B][I] Mr Entertainment. [/B][/I][/COLOR] [COLOR red][B][I]YOU will need a debrid premium account for this addon[/B][/I][/COLOR]</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <forum>Removed: Indigo</forum>
+        <website>Removed: Indigo</website>
+        <source>Removed: Indigo</source>
+        <news>last official v6.1.1 from @MrEntertainRepo (so without Indigo)</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot></screenshot>
+        </assets>
+    </extension>
+</addon>
+	<addon id="script.fantastic.artwork" version="3.0" name="fantastic Artwork" provider-name="fantastic">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the fantastic Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.fantastic.metadata" version="3.0" name="fantastic Metadata" provider-name="fantastic">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the fantastic Addon</summary>
+		<description>Metadata for fantastic are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.gaia.artwork" version="3.0.0" name="Gaia Artwork" provider-name="Gaia">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Gaia Artwork</summary>
+		<description>The artwork for Gaia</description>
+		<disclaimer lang="en">Gaia and its developers are not in any way affiliated with Kodi, Premiumize, OffCloud, RealDebrid, EasyNews, Orion, or any of the sites and providers used in the addon.<br/>Gaia is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.<br/>Gaia and its developers do not host, create, or distribute any of the content displayed in the addon, it simply searches public websites.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/?support</forum>
+	</extension>
+</addon>
+	<addon id="script.gaia.resources" version="3.2.5" name="Gaia Resources" provider-name="Gaia">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Gaia Resources</summary>
+		<description>The general resources for Gaia</description>
+		<disclaimer lang="en">Gaia and its developers are not in any way affiliated with Kodi, Premiumize, OffCloud, RealDebrid, EasyNews, Orion, or any of the sites and providers used in the addon.<br/>Gaia is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.<br/>Gaia and its developers do not host, create, or distribute any of the content displayed in the addon, it simply searches public websites.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/?support</forum>
+	</extension>
+</addon>
+	<addon id="script.Galaxy.artwork" version="2.0" name="[COLOR gray]Galaxy[/COLOR] Artwork" provider-name="[COLOR white]The Martian[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Galaxy Addon</summary>
+		<description>Artwork Module for the Galaxy Addon</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <license>Beerware rev. 42</license>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.Galaxy.metadata" version="1.0.7" name="[COLOR gray]Galaxy Metadata[/COLOR]" provider-name="[COLOR white]The Martian[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Galaxy Addon</summary>
+		<description>Metadata for Galaxy are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.Legendary.artwork" version="2.1" name="Legendary Artwork" provider-name="Legendary">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Legendary Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.Legendary.metadata" version="2.0" name="Legendary Metadata" provider-name="Legendary">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Legendary Addon</summary>
+		<description>Metadata for Legendary are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.module.fantastic" name="fantastic Module" version="3.5" provider-name="fantastic">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">fantastic</summary>
+	</extension>
+</addon>
+	<addon id="script.module.Galaxy" name="[COLOR gray]Galaxy Module[/COLOR]" version="3.1" provider-name="[COLOR gray]The Martian[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Galaxy</summary>
+		<description>Covenant Fork from Echo/Colossus era with The Martian's updates and new code.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <license>Beerware rev. 42</license>
+	</extension>
+</addon>
+	<addon id="script.module.Legendary" name="Legendary Module" version="3.1" provider-name="Legendary">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Legendary</summary>
+	</extension>
+</addon>
+	<addon id="script.module.nemzzy" name="Nemzzy Libraries" version="1.00.002" provider-name="@Nemzzy668">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Moduel Addon with files used by addons made by Nemzzy</summary>
+	</extension>
+</addon>
+	<addon id="script.module.orion" version="1.2.6" name="Orion" provider-name="Orion">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="repository.orion" version="1.0.0" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="lib/addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="lib" /> <!-- Must be placed after xbmc.python.pluginsource, otherwise the addon does not show in the repository. -->
+	<extension point="xbmc.service" library="lib/service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Torrent, Usenet, and Hoster Providers</summary>
+		<description lang="en">Orion is a system for caching search and scraping results for later reuse. Metadata and links on Orion are maintained by the community. Searches are cached so that subsequent users can quickly access the results without having to go through a lengthy scraping process themselves. The Orion Kodi addon does not provide any search or playback features, but it can easily be integrated into any other addon, website, or standalone program with minimal effort.</description>
+		<disclaimer lang="en">Orion does not create, host, or distribute any files or videos. Orion is a caching service providing low-level API access to a community-maintained storage of textual data. All metadata and links available through Orion are scraped, processed, and submitted by community users. Due to the volume, velocity, and complexity of the data, Orion cannot inspect or validate the content submitted by users. Data on Orion may therefore be inaccurate, out-dated, or in other ways unusable. Orion does not guarantee the validity or integrity of the data available through its API and does not take liability for any of the data submitted by its users. Users take the risk and are responsible for the manner in which they utilize the Orion API.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://orionoid.com</website>
+		<forum>https://support.orionoid.com</forum>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
 </addons>
