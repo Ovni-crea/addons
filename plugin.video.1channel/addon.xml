@@ -1,4 +1,4 @@
-<addon id="plugin.video.1channel" version="4.0.04" name="PrimeWire" provider-name="k3l3vra">
+<addon id="plugin.video.1channel" version="4.0.06" name="PrimeWire" provider-name="k3l3vra">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0"/>
@@ -13,8 +13,8 @@
     <extension point="xbmc.service" library="service.py" start="startup">
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Browse PrimeWire.ag</summary>
-        <description>Play a wide selection of movies and TV shows from PrimeWire.ag.
+        <summary>Browse PrimeWire.is</summary>
+        <description>Play a wide selection of movies and TV shows from PrimeWire.is.
 ***This addon is supported at [COLOR blue]www.tvaddons.co[/COLOR], [COLOR white][B]NOT[/B][/COLOR] [COLOR red]kodi.tv[/COLOR]. ***
         </description>
         <platform>all</platform>
