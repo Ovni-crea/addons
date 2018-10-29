@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Scrubs" version="2.0" name="[COLOR orange]Scrubs[/COLOR]" provider-name="JewBMX">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.Scrubs" />
+		<import addon="script.Scrubs.artwork" />
+		<import addon="script.Scrubs.metadata" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="Scrubs.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A Clean Source To Dirty Things...</summary>
+        <description lang="en">Movies, Tv Shows, and What Not. [CR]See Settings for the Help/About tab. [CR]Providers are now sorted different in the settings and all the best normal ones are enabled. [CR]Disabled by Default: Debrid/Prem and a 'Sloppy' Stack too, Enable the ones you want from these sections in the settings. [CR]Instead of being confused with all those choices half enabled i decided to go another way. [CR]You enable/disable the ones you dont like and let me handle the broken providers. [CR]How it should be :)</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <license>Free the People!, Free the World!!</license>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+		<assets>
+			<icon>icon.jpg</icon>
+			<fanart>fanart.png</fanart>
+		</assets>
+		<news>Total CleanUp of Providers, Checked and all good as of 10-27-2018. [CR]Settings updated to match provider list. [CR]Error found on Kodi 18: Setting for theme swap is broken. [CR] (Limits those users big time lol.) [CR]Added Menu Items from NiteCrawler and PlugIns. [CR]Added NiteCrawlers UserList Collection also. [CR]Changed the Provider Settings Layout. [CR]Changed More of the Settings Layout and Settings.</news>
+	</extension>
+</addon>
