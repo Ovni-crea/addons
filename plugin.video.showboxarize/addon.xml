@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.showboxarize" version="12.29.17" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
+<addon id="plugin.video.showboxarize" version="2018.05.23" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
