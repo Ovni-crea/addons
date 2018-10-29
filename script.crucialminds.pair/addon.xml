@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.crucialminds.pair" name="Crucial Minds Pair" version="1.3" provider-name="KryptKeeper">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Pairing tool </summary>
+    <description lang="en">Pairing tool with help from Lockdown</description>
+	<disclaimer>website launcher</disclaimer>
+  </extension>
+</addon>
