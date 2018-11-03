@@ -8294,5 +8294,70 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
 		<platform>all</platform>
 	</extension>
 </addon>
-	
+	<addon id="script.TheLab.artwork" version="1.1.1" name="TheLab" provider-name="lockdown">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the TheLab</summary>
+		<description>Themes for TheLab</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.TheLab.metadata" version="1.0.4" name="TheLab Metadata" provider-name="lockdown">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the TheLab</summary>
+		<description>Metadata for TheLab</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.triangulum.artwork" version="1.2.8" name="triangulum Artwork" provider-name="lockdown">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the triangulum Addon</summary>
+		<description>triangulum.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.triangulum.metadata" version="1.0.0" name="triangulum Metadata" provider-name="lockdown">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the triangulum Addon</summary>
+		<description>Metadata for triangulum</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.vistatvshowbox.artwork" version="1.0.12" name="VistaTV ShowBox Artwork" provider-name="VistaTV">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the VistaTV ShowBox Addon</summary>
+		<description>Themes for VistaTV ShowBox are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.vistatvshowbox.metadata" version="1.0.1" name="VistaTV ShowBox Metadata" provider-name="VistaTV">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the VistaTV ShowBox Addon</summary>
+		<description>Metadata for VistaTV ShowBox are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
