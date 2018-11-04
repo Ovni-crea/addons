@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.sigsauer" version="2018.05.21" name="[B][COLORdarkgrey]SIG-Sauer[/COLOR][/B]" provider-name="[B][COLORdarkgrey]Smith[/COLOR][/B]">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.resolveurl" version="5.0.0"/>
+        <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="script.module.tknorris.shared" version="0.0.19"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.dateutil"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary></summary>
+        <description>To the legends who paved the way may their legacy never be forgotten       
+        </description>
+        <platform>all</platform>
+    </extension>
+</addon>
