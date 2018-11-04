@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Scrubs" version="2.2" name="[COLOR orange]Scrubs[/COLOR]" provider-name="JewBMX">
+<addon id="plugin.video.Scrubs" version="2.3" name="[COLOR orange]Scrubs[/COLOR]" provider-name="JewBMX">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.Scrubs" />
