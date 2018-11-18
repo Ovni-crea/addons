@@ -1,0 +1,18 @@
+<?xml version="2018.02.18" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.bangonpinoy" name="[B]Bangon Pinoy[/B]" version="2018.10.15" provider-name="ALLAN">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+		<import addon="script.module.addon.common" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">all in one for FREE!!!</summary>
+		<description lang="en">para sa mga kababayan nating walang cable at may cable basta may internet.. ALLAN is here!!!</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>
