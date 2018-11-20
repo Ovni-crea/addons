@@ -13,8 +13,8 @@
 		<name>IPTV (liste 1)</name>
 		<thumbnail></thumbnail>
 		<fanart></fanart>
-		<link>plugin://plugin.video.f4mTester/?url=https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/m3u/fr.m3u</link>
-		<externallink></externallink>
+		<link>http://Ignorem</link>
+		<externallink>plugin://plugin.video.f4mTester/?url=https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/m3u/fr.m3u</externallink>
 	</channel>
 	
 </channels>
