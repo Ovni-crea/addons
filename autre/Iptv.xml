@@ -13,7 +13,7 @@
 		<thumbnail></thumbnail>
 		<fanart></fanart>
 		<link>plugin://plugin.video.f4mTester/?url=https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/m3u/fr.m3u</link>
-		
+		<externallink></externallink>
 	</channel>
 </channels>
 		
