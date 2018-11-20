@@ -8,6 +8,7 @@
 		<date>20.11.2018</date>
 		<credits>Broly IPTV</credits>
 	</channels_info>
+	
 	<channel>
 		<name>IPTV (liste 1)</name>
 		<thumbnail></thumbnail>
@@ -15,6 +16,7 @@
 		<link>plugin://plugin.video.f4mTester/?url=https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/m3u/fr.m3u</link>
 		<externallink></externallink>
 	</channel>
+	
 </channels>
 		
 		
