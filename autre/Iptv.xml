@@ -13,6 +13,6 @@
 		<name>IPTV (liste 1)</name>
 		<thumbnail></thumbnail>
 		<fanart></fanart>
-		<link>http://ignorame</link>
-		<externallink>plugin://plugin.video.f4mTester/?url=https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/m3u/PlayList-1542721341-M3U8-515.m3u8&amp;streamtype=TSDOWNLOADER&name=liste 1</externallink>
+		<link>plugin://plugin.video.f4mTester/?url=https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/m3u/PlayList-1542721341-M3U8-515.m3u8&amp;streamtype=TSDOWNLOADER&name=liste 1</link>
+		
 	</channel>
