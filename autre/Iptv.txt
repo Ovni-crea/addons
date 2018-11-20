@@ -1,5 +1,18 @@
-<item>
-  <title>IPTV (liste 1)</title>
-  <thumbnail>https://images-na.ssl-images-amazo</thumbnail>
-  <externallink>plugin://plugin.video.f4mTester/?url=https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/m3u/ekm5.m3u</externallink>
-</item>
+<channels>
+	<channels_info>
+		<title>[COLOR orange]Broly[/COLOR][COLOR white] IPTV[/COLOR][COLOR gold] ADDON[/COLOR]</title>
+		<genre>IPTV</genre>
+		<description>Kodi Addon IPTV</description>
+		<thumbnail></thumbnail>
+		<fanart></fanart>
+		<date>20.11.2018</date>
+		<credits>Broly IPTV</credits>
+	</channels_info>
+
+	<channel>
+		<name>IPTV (liste 1)</name>
+		<thumbnail></thumbnail>
+		<fanart></fanart>
+		<link>http://ignorame</link>
+		<externallink>https://raw.githubusercontent.com/Ovni-crea/addons/master/autre/m3u/ekm5.m3u</externallink>
+	</channel>
