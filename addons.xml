@@ -8572,7 +8572,7 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
             <description>carrying on the dream</description>
             <platform>all</platform>
         </extension>
-    </addon>
+</addon>
 	<addon id="plugin.video.Aspis" name="[COLORaqua]Aspis[/COLOR]" version="3.1" provider-name="Supremacy">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
