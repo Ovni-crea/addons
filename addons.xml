@@ -11978,4 +11978,242 @@ V2.0.0.6
     <source></source>
   </extension>
 </addon>
+	<addon id="script.module.exodus" name="Exodus Module" version="3.0.0" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Exodus</summary>
+	</extension>
+</addon>
+	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="1.0.9" provider-name="I-A-C">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Exodus Redux</summary>
+	</extension>
+</addon>
+	<addon id="script.module.fantastic" name="fantastic Module" version="5.0" provider-name="fantastic">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">fantastic</summary>
+	</extension>
+</addon>
+	<addon id="script.module.Galaxy" name="[COLOR gray]Galaxy Module[/COLOR]" version="5.0" provider-name="[COLOR gray]The Martian[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Galaxy</summary>
+		<description>Covenant Fork from Echo/Colossus era with The Martian's updates and new code.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <license>Beerware rev. 42</license>
+	</extension>
+</addon>
+	<addon id="script.module.lambdascrapers" name="Lambdascrapers Module" version="1.8.0" provider-name="I-A-C">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py">
+		<provides>executable</provides>
+	</extension>
+	<!--<extension point="xbmc.service" library="CleanupService.py" start="startup" />-->
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary lang="en">Lambdascrapers Module</summary>
+			<description>Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
+        		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom ofi expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        		<license>Beerware rev. 42</license>
+		</extension>
+</addon>
+	<addon id="script.module.Legendary" name="Legendary Module" version="5.0" provider-name="Legendary">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Legendary</summary>
+	</extension>
+</addon>
+	<addon id="script.module.MaverickLive" name="[COLORlime]MaverickLive[/COLOR]" version="1.0" provider-name="Maverick">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">Maverick</summary>
+    <description lang="en_gb">Maverick</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+	<addon id="script.module.numbersbynumbers" name="NuMbErS Module" version="1.00.039" provider-name="Brackets">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">NuMbErS</summary>
+        <assets>
+	      <icon>icon.png</icon>
+		</assets>		
+	</extension>
+</addon>
+	<addon id="script.module.resistance" name="resistance Module" version="7.6.6.6" provider-name="scarecrow">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+		<import addon="script.module.simplejson"/>
+		<import addon="script.module.python.koding.aio" version="0.9.6.6" />
+		<import addon="script.module.requests" version="2.9.1" />
+		<import addon="script.module.xmltodict" version="0.9.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">resistance</summary>
+	</extension>
+</addon>
+	<addon id="script.module.Supremacy.Tv" name="Supremacy" version="1.1" provider-name="Supremacy">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">Supremacy</summary>
+    <description lang="en_gb">Supremacy</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+	<addon id="script.module.Yoda" name="[COLORgreen]Yoda Module[/COLOR]" version="1.00.045" provider-name="S-media">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Yoda</summary>
+	</extension>
+</addon>
+	<addon id="script.resistance.artwork" version="2.1.1" name="resistance Artwork" provider-name="scarecrow">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the resistance Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="script.Yoda.artwork" version="1.0.7" name="[COLORgreen]Yoda Artwork[/COLOR]" provider-name="S">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Yoda Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	<addon id="plugin.program.tojelako" name="Tojelako Wizard" version="0.0.2" provider-name="tojelako">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Tojelako</summary>
+    <description lang="en">Tojelako Wizard Buldovi od autora Tojelako.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+	<addon id="script.module.globalscrapers" name="globalscrapers Module" version="3.2.2" provider-name="Solid_Snake">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+		<summary lang="en">globalscrapers Module</summary>
+		<description>globalscrapers Module</description>
+        <license>GPL</license>
+	</extension>
+</addon>
+	<addon id="repository.bugatsinho" name=" Bugatsinho repository" version="2.1" provider-name="Bugatsinho">
+    <extension point="xbmc.addon.repository" name="Bugatsinho repository">
+        <info compressed="false">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/_zips</datadir>
+        <hashes>false</hashes>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Bugatsinho repository</summary>
+        <description>This repository contains Greek, Spanish and other addons!Read first each addon's description!</description>
+        <platform>all</platform>
+    </extension>
+</addon>
 </addons>
