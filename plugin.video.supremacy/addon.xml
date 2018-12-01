@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.supremacy" name="[COLOR yellow][B]supremacy[/COLOR][/B]" version="1.6.4" provider-name="Supremacy">
+<addon id="plugin.video.supremacy" name="[COLOR yellow][B]supremacy[/COLOR][/B]" version="1.6.8" provider-name="Supremacy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -7,6 +7,7 @@
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="script.video.F4mProxy"/>
 		<import addon="script.module.supremacy"/>
+		<import addon="script.module.Supremacy.Tv"/>
 		</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
