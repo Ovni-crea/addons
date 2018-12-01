@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.resistance" version="7.0.0" name="resistance" provider-name="Scarecrow">
+<addon id="plugin.video.resistance" version="7.1.1" name="resistance" provider-name="Scarecrow">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.resistance" />
