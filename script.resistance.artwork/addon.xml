@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.resistance.artwork" version="2.0.0" name="resistance Artwork" provider-name="scarecrow">
+<addon id="script.resistance.artwork" version="2.1.1" name="resistance Artwork" provider-name="scarecrow">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
