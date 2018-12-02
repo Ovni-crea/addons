@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.ovnitek" name="[COLOR FFFFD800]Ovni Tek repository[/COLOR]" version="1.1" provider-name="Ovni tek,Ovni crea ">
+<addon id="repository.ovnitek" name="[COLOR FFFFD800]Ovni Tek repository[/COLOR]" version="2.0" provider-name="Ovni tek,Ovni crea ">
 	<extension point="xbmc.addon.repository" name="Ovni tek,Ovni crea">
-		<info compressed="false">https://raw.githubusercontent.com/quentin80200/addons/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/quentin80200/addons/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/quentin80200/addons/master/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/quentin80200/addons/1.0.0/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/quentin80200/addons/1.0.0/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/quentin80200/addons/1.0.0/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>depot d extension</summary>
